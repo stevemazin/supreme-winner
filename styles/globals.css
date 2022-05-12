@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.checkoutFormWrapper {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buyForm {
+  width: 350px;
+  padding: 1.2rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+/*  Logo */
+#veetaLogo {
+  width: 300px;
+}
+
+.cls-1 {
+  fill: none;
+}
+.cls-2 {
+  font-size: 44.5px;
+  fill: #fff;
+  font-family: HelveticaNeue-BoldItalic, Helvetica Neue;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+.cls-3 {
+  letter-spacing: 0.16em;
+}
+.cls-4 {
+  letter-spacing: 0.1em;
+}
+.cls-5 {
+  letter-spacing: 0.16em;
+}
+.cls-6 {
+  clip-path: url(#clip-path);
+}
+.cls-7 {
+  fill: url(#linear-gradient);
+}
